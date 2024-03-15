@@ -15,7 +15,10 @@ def Quizzer():
     #Calculate for the product
     product = x * y
     #Store user answer
-    result = int(input("Answer is: "))
+    try:
+        result = int(input("Answer is: "))
+    except ValueError:
+        print("Please enter numbers.")
     # if/else to see if results are true/false.
     if result == product:
         print("Good Job!")
