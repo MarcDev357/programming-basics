@@ -13,8 +13,8 @@ def main():
         video_file.write(f"{run_time}\n")
         
         #close the file.
-        video_file.close()
-        print('The running times have been saved to running_times.txt.')
+    video_file.close()
+    print('The running times have been saved to running_times.txt.')
         
         # Call the main function.
 if __name__ == "__main__":
